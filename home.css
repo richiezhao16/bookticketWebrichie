@@ -1,0 +1,246 @@
+nav {
+	font-size: 10px;
+	padding-top: 0rem;
+	padding-right: 2rem;
+	padding-left: 2rem;
+	padding-bottom: 0rem;
+	display: table;
+	height: 100px;
+	width: 100%;
+	border-bottom: thin solid #dddddd;
+	background-color: rgba(255,255,255,0.83);
+	-webkit-box-shadow: 0px 0px #B3C9F0;
+	box-shadow: 0px 0px #B3C9F0;
+	float: none;
+	margin: -8px
+}
+
+nav ul.nav-links {
+	float: right;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 0px 2px 0px 0px;
+}
+
+nav ul.nav-links > li {
+    display: inline-block;
+    margin: 0 1rem;
+	padding: 0px 0px 0px 0px;
+}
+
+nav .airtrip-title {
+	color: #3976E0;
+	font-size: 3rem;
+	float: left;
+	line-height: 5rem;
+	text-decoration: none;
+}
+
+nav ul.nav-links > li > a {
+	line-height: 9rem;
+	font-size: 1.8rem;
+	color: #444444;
+	padding-top: 2rem;
+	padding-right: 0px;
+	padding-left: 0;
+	padding-bottom: 2rem;
+	text-decoration: none;
+}
+nav ul.nav-links > li > a:hover {
+	color: #3976E0;
+}
+
+nav ul.nav-links > li > a.active {
+	color: #3976E0;
+}
+.clearfix {
+	padding:0;
+	float: none;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 4rem;
+    padding: 1rem;
+    color: #FFFFFF;
+}
+
+.subtitle {
+	text-align: center;
+	font-size: 2rem;
+	padding: 1rem;
+	color: #F0F0F0;
+}
+.search-CTA {
+	border-radius: 40px;
+	padding: 10px;
+	width: 300px;
+	margin: 0 auto;
+	display: block;
+	font-size: 1.8rem;
+	background-color: #3976E0;
+	color: #000000;
+	border: 0;
+	clear: none;
+	font-style: normal;
+}
+.search-CTA:hover{
+	background-color: #18499D;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	text-shadow: 0px 0px;
+}
+            
+
+
+
+
+.content {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin: 10rem auto auto auto;
+    text-align: center;
+}
+.col-lg-2 control-label{
+	margin-right: 60px;
+	margin-left: 20px;
+	width: 200px;
+	font-size: 80px;
+}
+.form-control2{
+	margin-right: 30px;
+	width: 200px;
+	font-size:50px;
+	font-size-adjust: auto
+}
+input {
+    padding: 5px;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: #555555;
+}
+th, td {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-right: 1.5rem;
+}
+label {
+    font-size: 1.7rem;
+    padding: 5px 0;
+	color: black;
+}
+h1{
+	color: #72ACE8;
+	font-size: 60px;
+	margin-top: 100px;
+}
+.btn1 {
+	border-radius: 5px;
+	padding: 10px;
+	margin: 50px 0 0 450px;
+	width: 150px;
+	font-size: 1.8rem;
+	background-color: #3976E0;
+	color: black;
+	border: 0;
+}
+.btn1 {
+	border-radius: 5px;
+	padding: 10px;
+	margin: 50px 0 0 450px;
+	width: 150px;
+	font-size: 1.8rem;
+	background-color: #3976E0;
+	color: black;
+	border: 0;
+}
+.btn2 {
+	border-radius: 5px;
+	padding: 10px;
+	margin: 50px 0 0 30px;
+	width: 150px;
+	font-size: 1.8rem;
+	background-color: #3976E0;
+	color: black;
+	border: 0;
+}
+.btn3 {
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 150px;
+    font-size: 1rem;
+    background-color: #3976E0;
+    color: #FFFFFF;
+	border: 0;
+}
+.btn3:hover{
+	background-color: #1E59C0;
+}
+.search-font{
+	font-size: 20px;
+}
+.form-control
+{
+	width: 180px;
+	height: 30px;	
+}
+.btn4 {
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px auto;
+    width: 150px;
+    font-size: 1rem;
+    background-color: #DC3D3D;
+    color: #FFFFFF;
+	border: 0;
+}
+.btn4:hover{
+	background-color: #C72424;
+}
+.select1{
+	width: 200px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #96B6EE;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size: 25px;
+}
+.input1
+{
+	width: 60%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #AFC7F2;
+    border-radius: 10px;
+    box-sizing: border-box;
+	font-size: 25px;
+}
+.select2{
+	width: 60%;
+    padding: 15px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #AFC7F2;
+    border-radius: 10px;
+    box-sizing: border-box;
+	font-size: 20px;
+}
+.input12{
+	width: 80%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #86ABEC;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    resize: none;
+}

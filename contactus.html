@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="css/home.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background:url(img/homepic.jpeg)no-repeat center center fixed">
+
+<nav>
+
+    <a href="home.html" class="airtrip-title">
+        Soar Trip
+    </a>
+
+    <ul class="nav-links">
+      <li><a class="active" href="home.html">Home</a></li>
+      <li><a href="search.php">Search Flights</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="yourbook.php">Your Bookings </a></li>
+    </ul>
+</nav>
+<div class="container">
+  <h1><strong>Contact Us</strong></h1>
+  <div class="content-normal clearfix">
+        <div class="col-1-2">
+            <form action="contact_conf.php" onsubmit="return validate();" method="post" id="contactForm">
+                <table >
+                    <tbody>
+                    <tr>
+                      <td>
+                            <label for="fname" class="col-lg-2 control-label">first name<span style="color:red">*</span></label>
+                        </td>
+                      <td>
+                            <input type="text" class="input1" id="fname" name="fname" placeholder="Your first name">
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>
+                            <label for="Lastname" class="col-lg-2 control-label">Last name<span style="color:red">*</span></label>
+                        </td>
+                      <td>
+                            <input type="text" class="input1" id="Lastname" name="Lastname" placeholder="Last Name">
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>
+                            <label for="email" class="col-lg-2 control-label">Email Address<span style="color:red">*</span></label>
+                        </td>
+                        <td>
+                            <input type="text" class="input1" id="email" name="email" placeholder="Your Email">
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>
+                            <label for="subject" class="col-lg-2 control-label">Subject<span style="color:red">*</span></label>
+                        </td>
+                      <td>
+                            <input type="text" class="input1" id="subject" name="subject" placeholder="Subject">
+                        </td>
+                    </tr>
+                    <tr>
+
+                      <td>
+                            <label for="feedback" class="col-lg-2 control-label">Feedback<span style="color:red">*</span></label>
+                        </td>
+                      <td>
+
+                            <textarea class="input12" rows="5" id="feedback" name="feedback" placeholder="Feedback"></textarea>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+              <input class="btn1" type="submit" value="Submit">
+          </form>
+            <!--            <textarea form ="contactForm" name="inquiry" id="inquiry" cols="35" wrap="soft" required></textarea>-->
+
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+function validate() {
+	var regex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+	if(document.getElementById("email").value == "") {
+		alert("Please input your email address.");
+		return false;
+	}
+	
+	if(!regex.test(document.getElementById("email").value)) {
+		alert("Please input valid email address.");
+		return false;
+	}
+	
+	if(document.getElementById("subject").value == "") {
+		alert("Please input your subject.");
+		return false;
+	}
+	
+	if(document.getElementById("feedback").value == "") {
+		alert("Please input your feedback.");
+		return false;
+	}
+	
+	return true;
+}
+</script>
+</body>
+</html>
